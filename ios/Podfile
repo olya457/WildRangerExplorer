@@ -31,5 +31,22 @@ target 'WildRangerExplorer' do
       :mac_catalyst_enabled => false,
       # :ccache_enabled => true
     )
+
+    # Xcode 26.4 can fail compiling fmt 11.0.2 when consteval is enabled.
+    # Keep this in post_install so the patch is reapplied after every pod install.
+    installer.pods_project.targets.each do |target|
+      next unless target.name == 'fmt'
+
+      target.build_configurations.each do |build_config|
+        build_config.build_settings['CLANG_CXX_LANGUAGE_STANDARD'] = 'c++17'
+      end
+    end
+
+    fmt_base_header = File.join(installer.sandbox.root, 'fmt', 'include', 'fmt', 'base.h')
+    if File.exist?(fmt_base_header)
+      fmt_source = File.read(fmt_base_header)
+      patched_fmt_source = fmt_source.gsub('#  define FMT_USE_CONSTEVAL 1', '#  define FMT_USE_CONSTEVAL 0')
+      File.write(fmt_base_header, patched_fmt_source) if patched_fmt_source != fmt_source
+    end
   end
 end
