@@ -23,7 +23,7 @@ export function ChallengeResultScreen({route, navigation}: Props) {
 
   const share = () => {
     Share.share({
-      message: `Trailkeeper ${label} Challenge: ${route.params.score} points, best streak ${route.params.streak}.`,
+      message: `EcoRanger ${label} Challenge: ${route.params.score} points, best streak ${route.params.streak}.`,
     }).catch(() => {});
   };
 

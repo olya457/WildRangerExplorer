@@ -28,7 +28,7 @@ export function RescueRunResultScreen({route, navigation}: Props) {
   }, [route.params.score, updateBestRunScore]);
 
   const share = () => {
-    Share.share({message: `Trailkeeper Rescue Run: ${route.params.score} points with ${guide.name} on ${paceLabel} pace.`}).catch(() => {});
+    Share.share({message: `EcoRanger Rescue Run: ${route.params.score} points with ${guide.name} on ${paceLabel} pace.`}).catch(() => {});
   };
 
   return (

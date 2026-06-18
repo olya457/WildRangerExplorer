@@ -64,7 +64,7 @@ export function ExpeditionsScreen() {
 
   return (
     <Screen scroll withTabBar>
-      <AppText size={26} weight="900" style={styles.title}>Trailkeeper Atlas</AppText>
+      <AppText size={26} weight="900" style={styles.title}>EcoRanger Wild Life Explorer</AppText>
       <View style={styles.metrics}>
         <Metric label="Sites" value={String(protectedSites.length)} />
         <Metric label="Regions" value={String(countries)} />

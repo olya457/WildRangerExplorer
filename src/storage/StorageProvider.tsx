@@ -19,11 +19,11 @@ type StorageContextValue = {
 };
 
 const storageSlots = {
-  savedSites: 'trailkeeper-atlas:saved-sites',
-  plannedSites: 'trailkeeper-atlas:planned-sites',
-  briefing: 'trailkeeper-atlas:briefing-complete',
-  challenge: 'trailkeeper-atlas:best-challenge',
-  rescueRun: 'trailkeeper-atlas:best-rescue-run',
+  savedSites: 'ecoranger-wildlife:saved-sites',
+  plannedSites: 'ecoranger-wildlife:planned-sites',
+  briefing: 'ecoranger-wildlife:briefing-complete',
+  challenge: 'ecoranger-wildlife:best-challenge',
+  rescueRun: 'ecoranger-wildlife:best-rescue-run',
 };
 
 const StorageContext = createContext<StorageContextValue | undefined>(undefined);

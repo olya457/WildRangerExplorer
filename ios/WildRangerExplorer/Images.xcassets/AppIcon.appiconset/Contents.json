@@ -1,73 +1,73 @@
 {
   "images" : [
     {
-      "filename" : "trailkeeper-notification-20@2x.png",
+      "filename" : "ecoranger-notification-20@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
-      "filename" : "trailkeeper-notification-20@3x.png",
+      "filename" : "ecoranger-notification-20@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
-      "filename" : "trailkeeper-settings-29@1x.png",
+      "filename" : "ecoranger-settings-29@1x.png",
       "idiom" : "iphone",
       "scale" : "1x",
       "size" : "29x29"
     },
     {
-      "filename" : "trailkeeper-settings-29@2x.png",
+      "filename" : "ecoranger-settings-29@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
-      "filename" : "trailkeeper-settings-29@3x.png",
+      "filename" : "ecoranger-settings-29@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
-      "filename" : "trailkeeper-spotlight-40@2x.png",
+      "filename" : "ecoranger-spotlight-40@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
-      "filename" : "trailkeeper-spotlight-40@3x.png",
+      "filename" : "ecoranger-spotlight-40@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
-      "filename" : "trailkeeper-legacy-57@1x.png",
+      "filename" : "ecoranger-legacy-57@1x.png",
       "idiom" : "iphone",
       "scale" : "1x",
       "size" : "57x57"
     },
     {
-      "filename" : "trailkeeper-legacy-57@2x.png",
+      "filename" : "ecoranger-legacy-57@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "57x57"
     },
     {
-      "filename" : "trailkeeper-app-60@2x.png",
+      "filename" : "ecoranger-app-60@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
-      "filename" : "trailkeeper-app-60@3x.png",
+      "filename" : "ecoranger-app-60@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
     },
     {
-      "filename" : "trailkeeper-store-1024.png",
+      "filename" : "ecoranger-store-1024.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
